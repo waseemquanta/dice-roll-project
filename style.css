@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin-top: 50px;
+
+}
+h1{
+    color: #333;
+}
+.dice-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.dice-container img {
+    width: min(35vw, 150px);
+    height: auto;
+    display: block;
+}
+.player-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    color: #333;
+    
+    
+}
+button {
+    padding: 12px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    background-color: royalblue;
+    color: white;
+    border-radius: 8px;
+}
+button:hover {
+    background-color: darkblue;
+}
